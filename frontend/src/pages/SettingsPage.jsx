@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { getSettings, updateSettings } from '../services/api';
+import { getSettings, updateSettings } from '../services/api'
 
 const SettingsPage = () => {
   const [settings, setSettings] = useState(null);
