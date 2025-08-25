@@ -52,3 +52,4 @@ const BusinessesPage = () => {
 };
 
 export default BusinessesPage;
+// Fix applied - July 25
