@@ -1,4 +1,3 @@
-// backend/server.js
 const express = require('express');
 const cors = require('cors');
 const path = require('path');
@@ -30,6 +29,7 @@ app.get('/', (req, res) => {
   res.json({ message: 'Marmaris Admin Panel API v1' });
 });
 
+// ✅ Listen on process.env.PORT (not just 5000)
 app.listen(PORT, () => {
   console.log(`✅ Server running on http://localhost:${PORT}`);
 });
