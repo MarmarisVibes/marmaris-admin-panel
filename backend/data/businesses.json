@@ -1,0 +1,241 @@
+[
+  {
+    "id": 1,
+    "name": "Sunset Beach Hotel",
+    "type": "hotel",
+    "venueTypes": ["hotel", "resort"],
+    "rating": 4.5,
+    "location": {
+      "address": "Marmaris Bay, Marmaris, Turkey",
+      "coordinates": {
+        "lat": 36.8534,
+        "lng": 28.2686
+      },
+      "area": "Marmaris Bay",
+      "landmarks": ["Near Marina", "Beachfront"]
+    },
+    "status": "active",
+    "gems": 3,
+    "contact": {
+      "phone": "+90 252 412 1234",
+      "email": "info@sunsetbeach.com",
+      "website": "https://sunsetbeach.com",
+      "socialMedia": {
+        "facebook": "sunsetbeachhotel",
+        "instagram": "@sunsetbeachmarmaris"
+      }
+    },
+    "description": "Luxury beachfront hotel with stunning sea views and premium amenities",
+    "amenities": ["Swimming Pool", "Spa", "Restaurant", "Beach Access", "Gym"],
+    "activities": [
+      {
+        "id": 101,
+        "name": "Beach Yoga",
+        "category": "wellness",
+        "description": "Morning yoga sessions on the private beach",
+        "schedule": "Daily 7:00 AM - 8:00 AM",
+        "price": "€15 per session",
+        "capacity": 20,
+        "requirements": ["Yoga mat", "Water bottle"]
+      },
+      {
+        "id": 102,
+        "name": "Sunset Cruise",
+        "category": "excursion",
+        "description": "Evening boat tour with dinner and live music",
+        "schedule": "Daily 6:00 PM - 9:00 PM",
+        "price": "€75 per person",
+        "capacity": 30,
+        "requirements": ["Swimwear", "Towel"]
+      }
+    ],
+    "reviews": [
+      {
+        "id": 201,
+        "userId": 1,
+        "userName": "John Smith",
+        "rating": 5,
+        "comment": "Amazing stay with beautiful views and excellent service!",
+        "date": "2024-05-15",
+        "verified": true
+      },
+      {
+        "id": 202,
+        "userId": 2,
+        "userName": "Sarah Johnson",
+        "rating": 4,
+        "comment": "Great location and facilities, would definitely return.",
+        "date": "2024-06-20",
+        "verified": true
+      }
+    ],
+    "media": {
+      "photos": [
+        {
+          "id": 301,
+          "url": "https://example.com/hotel-exterior.jpg",
+          "caption": "Hotel exterior with ocean view",
+          "category": "exterior",
+          "featured": true
+        },
+        {
+          "id": 302,
+          "url": "https://example.com/hotel-pool.jpg",
+          "caption": "Infinity swimming pool",
+          "category": "amenities",
+          "featured": false
+        }
+      ],
+      "videos": [
+        {
+          "id": 401,
+          "url": "https://example.com/hotel-tour.mp4",
+          "caption": "Virtual hotel tour",
+          "duration": "3:45",
+          "thumbnail": "https://example.com/hotel-tour-thumb.jpg",
+          "featured": true
+        }
+      ]
+    },
+    "businessHours": {
+      "monday": "24 hours",
+      "tuesday": "24 hours",
+      "wednesday": "24 hours",
+      "thursday": "24 hours",
+      "friday": "24 hours",
+      "saturday": "24 hours",
+      "sunday": "24 hours"
+    },
+    "bookingSettings": {
+      "advanceBooking": "30 days",
+      "cancellationPolicy": "Free cancellation up to 48 hours before",
+      "paymentMethods": ["Credit Card", "Cash", "Bank Transfer"]
+    },
+    "owner": {
+      "id": 1,
+      "name": "John Doe",
+      "email": "owner@sunsetbeach.com",
+      "phone": "+90 252 412 1235",
+      "joinDate": "2023-01-15"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Aqua Restaurant",
+    "type": "restaurant",
+    "venueTypes": ["restaurant", "seafood", "mediterranean"],
+    "rating": 4.2,
+    "location": {
+      "address": "Marina District, Marmaris, Turkey",
+      "coordinates": {
+        "lat": 36.8505,
+        "lng": 28.2723
+      },
+      "area": "Marina District",
+      "landmarks": ["Next to Yacht Club"]
+    },
+    "status": "active",
+    "gems": 2,
+    "contact": {
+      "phone": "+90 252 412 5678",
+      "email": "contact@aquarestaurant.com",
+      "website": "https://aquarestaurant.com",
+      "socialMedia": {
+        "facebook": "aquarestaurantmarmaris",
+        "instagram": "@aqua_marmaris"
+      }
+    },
+    "description": "Fresh seafood with Mediterranean flair and stunning marina views",
+    "cuisine": ["Mediterranean", "Seafood", "Turkish"],
+    "amenities": ["Outdoor Seating", "Bar", "Live Music", "Sea View"],
+    "activities": [
+      {
+        "id": 103,
+        "name": "Cooking Class",
+        "category": "experience",
+        "description": "Learn to prepare traditional Turkish dishes",
+        "schedule": "Wed & Sat 3:00 PM - 6:00 PM",
+        "price": "€65 per person",
+        "capacity": 12,
+        "requirements": ["Apron provided"]
+      },
+      {
+        "id": 104,
+        "name": "Wine Tasting",
+        "category": "experience",
+        "description": "Sample local and international wines",
+        "schedule": "Fri 7:00 PM - 9:00 PM",
+        "price": "€35 per person",
+        "capacity": 20,
+        "requirements": ["Age 18+"]
+      }
+    ],
+    "reviews": [
+      {
+        "id": 203,
+        "userId": 3,
+        "userName": "Mike Wilson",
+        "rating": 5,
+        "comment": "Best seafood in Marmaris! The grilled octopus was exceptional.",
+        "date": "2024-07-10",
+        "verified": true
+      }
+    ],
+    "media": {
+      "photos": [
+        {
+          "id": 303,
+          "url": "https://example.com/restaurant-interior.jpg",
+          "caption": "Elegant dining area",
+          "category": "interior",
+          "featured": true
+        },
+        {
+          "id": 304,
+          "url": "https://example.com/seafood-platter.jpg",
+          "caption": "Signature seafood platter",
+          "category": "food",
+          "featured": false
+        }
+      ],
+      "videos": []
+    },
+    "businessHours": {
+      "monday": "11:00 AM - 11:00 PM",
+      "tuesday": "11:00 AM - 11:00 PM",
+      "wednesday": "11:00 AM - 11:00 PM",
+      "thursday": "11:00 AM - 11:00 PM",
+      "friday": "11:00 AM - 11:30 PM",
+      "saturday": "11:00 AM - 11:30 PM",
+      "sunday": "11:00 AM - 10:30 PM"
+    },
+    "bookingSettings": {
+      "advanceBooking": "14 days",
+      "cancellationPolicy": "Free cancellation up to 24 hours before",
+      "paymentMethods": ["Credit Card", "Cash"]
+    },
+    "menu": {
+      "categories": [
+        {
+          "name": "Appetizers",
+          "items": [
+            {
+              "id": 501,
+              "name": "Calamari",
+              "description": "Fresh squid rings fried to perfection",
+              "price": "€12",
+              "dietary": ["Gluten-Free"]
+            }
+          ]
+        }
+      ]
+    },
+    "owner": {
+      "id": 2,
+      "name": "Maria Garcia",
+      "email": "maria@aquarestaurant.com",
+      "phone": "+90 252 412 5679",
+      "joinDate": "2023-03-22"
+    }
+  }
+]

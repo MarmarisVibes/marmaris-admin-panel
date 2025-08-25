@@ -1,0 +1,11 @@
+[
+  {
+    "id": 1,
+    "reviewId": 201,
+    "reportedBy": "userId",
+    "reason": "Inappropriate content",
+    "description": "Review contains offensive language",
+    "status": "under_review",
+    "reportedDate": "2024-07-22"
+  }
+]

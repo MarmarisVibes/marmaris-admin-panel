@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "businessName": "Adventure Tours Marmaris",
+    "contactPerson": "Ahmet Yilmaz",
+    "email": "ahmet@adventuretours.com",
+    "phone": "+90 252 412 9012",
+    "businessType": "activity",
+    "venueTypes": ["tour operator", "adventure"],
+    "proposedActivities": [
+      {
+        "name": "Jeep Safari",
+        "category": "adventure",
+        "description": "Off-road adventure through mountains and villages",
+        "duration": "6 hours",
+        "proposedPrice": "€45 per person"
+      },
+      {
+        "name": "Scuba Diving",
+        "category": "water",
+        "description": "Discover underwater world with certified instructors",
+        "duration": "4 hours",
+        "proposedPrice": "€65 per person"
+      }
+    ],
+    "status": "pending",
+    "submissionDate": "2024-07-15",
+    "documents": [
+      {
+        "type": "business_license",
+        "url": "https://example.com/licenses/adventure_tours_license.pdf",
+        "status": "verified"
+      },
+      {
+        "type": "insurance",
+        "url": "https://example.com/insurance/adventure_tours_insurance.pdf",
+        "status": "pending"
+      }
+    ]
+  }
+]

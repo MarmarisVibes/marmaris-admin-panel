@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "name": "Water Activities",
+    "subcategories": ["Swimming", "Diving", "Snorkeling", "Boating", "Fishing"]
+  },
+  {
+    "id": 2,
+    "name": "Land Activities",
+    "subcategories": ["Hiking", "Sightseeing", "Cultural Tours", "ATV Tours"]
+  },
+  {
+    "id": 3,
+    "name": "Wellness",
+    "subcategories": ["Spa", "Massage", "Yoga", "Fitness"]
+  },
+  {
+    "id": 4,
+    "name": "Food & Drink",
+    "subcategories": ["Cooking Classes", "Wine Tasting", "Food Tours"]
+  },
+  {
+    "id": 5,
+    "name": "Entertainment",
+    "subcategories": ["Live Music", "Nightlife", "Shows", "Festivals"]
+  }
+]

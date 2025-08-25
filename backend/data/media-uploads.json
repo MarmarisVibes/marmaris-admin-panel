@@ -1,0 +1,25 @@
+[
+  {
+    "id": 1,
+    "businessId": 1,
+    "type": "photo",
+    "url": "https://example.com/new-hotel-photo.jpg",
+    "caption": "Newly renovated lobby",
+    "category": "interior",
+    "uploadedBy": "owner",
+    "uploadDate": "2024-07-20",
+    "status": "approved"
+  },
+  {
+    "id": 2,
+    "businessId": 2,
+    "type": "video",
+    "url": "https://example.com/restaurant-promo.mp4",
+    "caption": "Restaurant promotional video",
+    "duration": "2:30",
+    "thumbnail": "https://example.com/restaurant-promo-thumb.jpg",
+    "uploadedBy": "owner",
+    "uploadDate": "2024-07-18",
+    "status": "pending"
+  }
+]

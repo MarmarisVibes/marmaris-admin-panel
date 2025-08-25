@@ -1,0 +1,20 @@
+{
+  "businessApproval": {
+    "autoApprove": false,
+    "requiredDocuments": ["business_license", "insurance", "tax_registration"],
+    "reviewProcess": "admin_review"
+  },
+  "mediaUpload": {
+    "maxPhotos": 20,
+    "maxVideos": 5,
+    "maxPhotoSize": "10MB",
+    "maxVideoSize": "100MB",
+    "allowedFormats": ["jpg", "jpeg", "png", "mp4", "mov"]
+  },
+  "reviewSystem": {
+    "allowAnonymousReviews": false,
+    "requireVerification": true,
+    "minRating": 1,
+    "maxRating": 5
+  }
+}

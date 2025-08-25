@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Accommodation",
+    "subcategories": ["Hotel", "Resort", "Apartment", "Villa", "B&B"]
+  },
+  {
+    "id": 2,
+    "name": "Dining",
+    "subcategories": ["Restaurant", "Cafe", "Bar", "Winery", "Food Tour"]
+  },
+  {
+    "id": 3,
+    "name": "Activities",
+    "subcategories": ["Water Sports", "Tours", "Adventure", "Wellness", "Cultural"]
+  },
+  {
+    "id": 4,
+    "name": "Entertainment",
+    "subcategories": ["Nightclub", "Live Music", "Theater", "Cinema"]
+  },
+  {
+    "id": 5,
+    "name": "Shopping",
+    "subcategories": ["Market", "Mall", "Boutique", "Souvenir Shop"]
+  },
+  {
+    "id": 6,
+    "name": "Transportation",
+    "subcategories": ["Car Rental", "Boat Rental", "Taxi", "Bus Tour"]
+  }
+]
