@@ -47,4 +47,3 @@ const ReviewReportsPage = () => {
 };
 
 export default ReviewReportsPage;
-// Fix applied - July 25

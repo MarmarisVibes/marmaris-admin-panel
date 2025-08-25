@@ -86,4 +86,3 @@ const SettingsPage = () => {
 };
 
 export default SettingsPage;
-// Fix applied - July 25

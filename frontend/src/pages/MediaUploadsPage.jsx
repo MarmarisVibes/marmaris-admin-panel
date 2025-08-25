@@ -65,4 +65,3 @@ const MediaUploadsPage = () => {
 };
 
 export default MediaUploadsPage;
-// Fix applied - July 25

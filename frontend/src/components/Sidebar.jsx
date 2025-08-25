@@ -3,14 +3,12 @@ import { Link, useLocation } from 'react-router-dom';
 const Sidebar = () => {
   const location = useLocation();
 
-  const menuItems = [
-    { name: 'Dashboard', path: '/' },
-    { name: 'Businesses', path: '/businesses' },
-    { name: 'Signups', path: '/signups' },
-    { name: 'Media Uploads', path: '/media-uploads' },
-    { name: 'Review Reports', path: '/review-reports' },
-    { name: 'Settings', path: '/settings' },
-  ];
+ const menuItems = [
+  { name: 'Dashboard', path: '/' },
+  { name: 'Businesses', path: '/businesses' },
+  { name: 'Signups', path: '/signups' },
+  { name: 'Media Uploads', path: '/media-uploads' },
+];
 
   return (
     <div className="w-64 bg-gray-100 min-h-screen p-4">
